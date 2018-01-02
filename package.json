@@ -1,8 +1,8 @@
 {
-    "name": "electron-updater-example",
-    "version": "0.5.1",
+    "name": "downloadfama",
+    "version": "0.5.4",
     "main": "main.js",
-    "description": "electron-updater example project",
+    "description": "Find All My Accounts",
     "author": "Matt Haggard",
     "scripts": {
         "publish": "build --mac --win -p always"
@@ -18,18 +18,17 @@
     "build": {
         "appId": "com.github.adminfama.electronupdaterexample",
         "mac": {
-            "category": "your.app.category.type",
+            "category": "public.app-category.productivity",
             "target": [
                 "zip",
                 "dmg"
             ]
         },
-        "publish": [
-            {
-                "provider": "github",
-                "owner": "adminfama",
-                "repo": "electron-updater-example"
-            }
-        ]
+        "publish": [{
+            "provider": "github",
+            "owner": "adminfama",
+            "repo": "downloadfama",
+            "releaseType": "release"
+        }]
     }
 }

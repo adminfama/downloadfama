@@ -21,7 +21,7 @@ If you can't use GitHub, you can use other providers:
                 "publish": [{
                     "provider": "github",
                     "owner": "iffy",
-                    "repo": "electron-updater-example"
+                    "repo": "downloadfama"
                 }],
                 ...
             }
